@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px){
+	*{
+		overflow-x: hidden;
+	}
+	.container{
+		padding: 0 4%;
+	}
+	.profile h2{
+		font-size: 46px;
+	}
+	.profile h4{
+		font-size:16px;
+	}
+	nav.menu-desktop{
+		display: none;
+	}
+	.w33,.w40,.w50,.w60{
+		width: 100%;
+	}
+	.picture{
+		margin: 5%;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.w60,.w40{
+		width: 100%;
+	}
+}

@@ -1,0 +1,352 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans';
+}
+
+.barra{
+	height: 2px;
+	width: 70px;
+	background-color: #c43838;
+}
+.w60{
+	float: left;
+	width: 60%;
+}
+.w50{
+	width: 50%;
+	float: left;
+}
+.w40{
+	width: 40%;
+	float: left;
+}
+.w33{
+	float: left;
+	width: 33.3%;
+}
+.clear{
+	clear: both;
+}
+
+.container{
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+span{
+	color: red;
+}
+span.table{
+	font-family: "Lato";
+	font-weight: 600;
+	color: rgb(211, 211, 211);
+}
+.overlay{
+	z-index: 1;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+	left: 0;
+	top: 0;
+}
+
+/*CLASSES AUXILIARES*/
+
+/*******HEADER*******/
+
+header{
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	padding: 0 2%;
+}
+
+header a{
+	text-decoration: none;
+}
+
+header .logomarca{
+	float: left;
+}
+
+header .logomarca a{
+	font-size: 32px;
+	color: white;
+	font-family: 'Merriweather';
+}
+
+header nav.menu-desktop{
+	float: right;
+}
+
+header nav.menu-desktop ul{
+	list-style: none;
+}
+
+header nav.menu-desktop li{
+	display: inline-block;
+	padding: 13px 15px;
+}
+
+header nav.menu-desktop a{
+	font-size: 20px;
+	color: white;
+	font-family: 'Merriweather';
+
+}
+
+header nav.menu-desktop a:hover{
+	color: red;
+	transition: 1.2s;
+}
+
+/*******HEADER*******/
+
+
+/*******CONTAINER ABOUT*******/
+
+div.banner-main{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 620px;
+	background-image: url('../images/banner-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.banner-main .profile{
+	width: 100%;
+	height: 70%;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.profile{
+	z-index: 2;
+	text-align: center;
+}
+
+.profile img{
+	height: 40%;
+	border-radius: 50%;
+}
+
+.profile h2{
+	padding: 12px;
+	color: #c43838;
+	font-size: 60px;
+	font-family: 'Open Sans';
+	font-weight: bold;
+}
+
+.profile h4{
+	font-size: 18px;
+	font-family: 'Roboto';
+	font-weight: lighter;
+	color: white;
+}
+
+/*******CONTAINER ABOUT*******/
+
+/*******SECTION DE INFORMAÇÕES*******/
+
+
+section.info{
+	width: 100%;
+	background-color: #191d2c;
+}
+
+section.sobre-mim{
+	padding: 5% 0%;
+}
+
+section.info .picture img{
+	border: 6px solid #232633;
+	width: 90%;
+}
+
+section.info .informacoes h2{
+	color: white;
+	margin-bottom: 1%;
+}
+
+section.info .informacoes h3{
+	color: #c43838;
+	font-size: 34px;
+	font-family: "Lato";
+	margin-bottom: 1%;
+}
+
+section.info .informacoes p{
+	margin-top: 3%;
+	font-family: "Lato";
+	font-weight: 200;
+	line-height: 28px;
+	color: rgb(233, 233, 233);
+}
+
+section.info .informacoes table{
+	width: 100%;
+	margin-top: 3%;
+	border: 2px solid #c43838;
+	padding: 2%;
+	border-radius: 10px;
+	color: rgb(189, 188, 188);
+	font-family: "Lato";
+	font-weight: 200;
+}
+
+.informacoes table td{
+	padding: 10px;
+}
+
+.informacoes a.download-btn{
+	display: block;
+	margin: 2% 0%;
+	text-decoration: none;
+}
+
+
+.informacoes a.download-btn input[type=button]{
+	display: block;
+	padding: 2% 5%;
+	border:none;
+	border-radius: 7px;
+	background-color: #c43838;
+	font-weight: 900;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a.download-btn input[type=button]:hover{
+	transition: 1s;
+	background-color: #ed4e4e;
+}
+
+/*******SECTION DE INFORMAÇÕES******/
+
+/*******SECTION DE SERVIÇOS*********/
+
+section.services{
+	width: 100%;
+	background-color: #191d2c;
+}
+
+section.services h3{
+	color: #c43838;
+	font-size: 34px;
+	font-family: "Lato";
+	margin-bottom: 1%;
+}
+
+section.services h2{
+	color: white;
+	margin-bottom: 1%;
+}
+
+.service-box{
+	margin-top: 3%;
+}
+
+.box{
+	text-align: center;
+	padding: 20px;
+	height: 250px;
+	border-radius: 10px;
+}
+
+.box h3 i{
+	padding: 4px 10px;
+	font-size: 64px;
+}
+
+.box h2{
+	padding: 5px 0;
+	font-size: 24px;
+}
+
+.box p{
+	color: #ccc;
+}
+
+/*******SECTION DE SERVIÇOS*********/
+
+/*******SECTION DE DEPOIMENTOS*********/
+
+section.testmonials{
+	width: 100%;
+	background-color: #191d2c;
+	text-align: center;
+	padding: 10% 0;
+}
+
+section.testmonials > .container > .barra{
+	position: relative;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+section.testmonials h3{
+	font-size: 35px;
+	color: #c43838;
+}
+section.testmonials h2{
+	padding: 6px 0;
+	font-size: 25px;
+	color: white;
+}
+
+.client{
+	padding: 5%;
+	margin-top: 5%;
+	border: 1px solid #c43838;
+	border-radius: 10px;
+}
+
+.client img{
+	height: 140px;
+	border-radius: 50%;
+}
+
+section.testmonials .client h2{
+	font-size: 35px;
+}
+
+section.testmonials .client h3{
+	font-size: 24px;
+	margin-bottom: 2%;
+}
+
+section.testmonials .client p{
+	border-top: 1px solid #9b9292;
+	padding-top: 1%;
+	color: white;
+	font-size: 14px;
+	font-weight: 100;
+}
+
+/*******SECTION DE DEPOIMENTOS*********/
+
+footer{
+	width: 100%;
+	background-color:#373c4c;
+}
+
+footer p{
+	text-align: center;
+	padding: 10px;
+	color: white;
+	font-weight: 100;
+}
