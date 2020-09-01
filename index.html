@@ -20,10 +20,8 @@
 				<ul>
 					<li><a href="#">Home</a></li>
 					<li><a href="#">Sobre</a></li>
-					<li><a href="#">Serviços</a></li>
+					<li><a href="#servicos">Serviços</a></li>
 					<li><a href="#">Resumo</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Blog</a></li>
 					<li><a href="#">Contato</a></li>
 				</ul>
 			</nav>
@@ -86,7 +84,7 @@
 		</section><!--sobre-mim-->
 	</section><!--section.info-->
 
-	<section class="services">
+	<section id="servicos" class="services">
 		<div class="container">
 			<h3>O que eu faço</h3>
 			<h2>Meus Serviços</h2>
@@ -136,18 +134,27 @@
 		</div><!--container-->
 	</section><!--services-->
 
-	<section class="testmonials">
+	<section class="contato">
 		<div class="container">
-			<h3>Clientes Satisfeitos</h3>
-			<h2>Depoimentos</h2>
+			<h3>Envie-me uma mensagem.</h3>
+			<h2>Contato</h2>
 			<div class="barra"></div>
 
-			<div class="client">
-				<img src="images/cliente.jpg"/>
-
-				<h2>Lionel Andrés Messi</h2>
-				<h3>Jogador de Futebol</h3>
-				<p>Nessecitei de um site pessoal e Gabriel Rikson e sua agência me deram toda atenção e suporte. Ótimos profissional e está sempre disposto a ajudar. Se eu precisar, com certeza mandarei um E-mail necessitando um novo orçamento.</p>
+			<div class="form">
+				<form action="">
+					<div class="w50">
+						<input type="text" placeholder="Nome" required>
+					</div>
+					<div class="w50">		
+						<input type="text" placeholder="Sobrenome" required>
+					</div>
+					<div class="w100">
+						<input type="email" placeholder="E-mail" required>
+					</div>	
+						<textarea class="w100" name="" id="" cols="30" rows="10" placeholder="Sua mensagem..." required></textarea>
+					<input type="submit" value="Enviar">
+				</form>
+				<div class="clear"></div>
 			</div>
 		</div><!--container-->
 	</section><!--testmonials-->

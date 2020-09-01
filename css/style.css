@@ -10,6 +10,14 @@
 	width: 70px;
 	background-color: #c43838;
 }
+.w100{
+	width: 100%;
+	float: left;
+}
+.w70{
+	width: 70%;
+	float: left;
+}
 .w60{
 	float: left;
 	width: 60%;
@@ -284,59 +292,61 @@ section.services h2{
 
 /*******SECTION DE DEPOIMENTOS*********/
 
-section.testmonials{
+section.contato{
 	width: 100%;
 	background-color: #191d2c;
 	text-align: center;
 	padding: 10% 0;
 }
 
-section.testmonials > .container > .barra{
+section.contato > .container > .barra{
 	position: relative;
 	top: 0;
 	left: 50%;
 	transform: translateX(-50%);
 }
 
-section.testmonials h3{
+section.contato h3{
 	font-size: 35px;
 	color: #c43838;
 }
-section.testmonials h2{
+section.contato h2{
 	padding: 6px 0;
 	font-size: 25px;
 	color: white;
 }
 
-.client{
-	padding: 5%;
-	margin-top: 5%;
-	border: 1px solid #c43838;
-	border-radius: 10px;
+form{
+	border: 0;
 }
-
-.client img{
-	height: 140px;
-	border-radius: 50%;
+.form{
+	width: 100%;
+	max-width: 900px;
+	padding: 2% 0;
+	margin: 0 auto;
 }
-
-section.testmonials .client h2{
-	font-size: 35px;
+.form input{
+	width: 100%;
+	font-size: 16px;
+	padding: 8px;
+	margin: 6px 0;
 }
-
-section.testmonials .client h3{
-	font-size: 24px;
-	margin-bottom: 2%;
+.form textarea{
+	padding: 8px;
+	margin: 6px 0;
+	height: 150px;
+	font-size: 16px;
+	resize: unset;
 }
-
-section.testmonials .client p{
-	border-top: 1px solid #9b9292;
-	padding-top: 1%;
+.form input[type=submit]{
+	width: 40%;
+	border:0;
+	border-bottom: 5px solid #e75454;
+	background-color: #c43838;
 	color: white;
-	font-size: 14px;
-	font-weight: 100;
+	font-size: 22px;
+	cursor: pointer;
 }
-
 /*******SECTION DE DEPOIMENTOS*********/
 
 footer{
