@@ -331,6 +331,7 @@ section.contato h2{
 	padding: 10px;
 	resize: vertical;
 	width: 92%;
+	outline: none;
 }
 
 .form input[type=submit]{
@@ -339,6 +340,11 @@ section.contato h2{
 	font-size: 24px;
 	cursor: pointer;
 	background-color: #c43838;
+}
+
+.form input[type=submit]:hover{
+	transition: 1s;
+	background-color: #7c0606;
 }
 /*******SECTION DE DEPOIMENTOS*********/
 
