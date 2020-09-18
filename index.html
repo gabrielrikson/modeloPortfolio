@@ -10,7 +10,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Open+Sans:wght@300;400;600&family=Roboto:wght@100;300;400&family=Titillium+Web&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header>
+	<header id="home">
 		<div class="container">
 			<div class="logomarca">
 				<a href="#">Gabriel<span>.</span>Rikson</a>
@@ -18,10 +18,10 @@
 
 			<nav class="menu-desktop">
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Sobre</a></li>
-					<li><a href="#">Serviços</a></li>
-					<li><a href="#">Contato</a></li>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#sobre">Sobre</a></li>
+					<li><a href="#servicos">Serviços</a></li>
+					<li><a href="#contato">Contato</a></li>
 				</ul>
 			</nav>
 		</div><!--container-->
@@ -36,13 +36,13 @@
 			<section class="profile">
 				<img src="images/avatar.jpg">
 				<h2>Gabriel Rikson</h2>
-				<h4>Web Designer</h4>
+				<h4 id="subtitulo">Web Designer</h4>
 			</section><!--section.profile-->
 		</div><!--container-->
 	</div><!--banner-main-->
 
 	<section class="info">
-		<section class="sobre-mim">
+		<section id="sobre" class="sobre-mim">
 			<div class="container">
 				<div class="picture w40">
 					<img src="images/avatar2.jpg" alt="">
@@ -57,32 +57,19 @@
 					Sou muito dedicado e apaixonado pelo meu trabalho. Com menos de 1 ano de experiência profissional
 					como Desenvolvedor, busco adquirir as habilidades necessarias para construir os melhores Websites para você. </p>
 					
-					<table>
-						<tr>
-							<td><span class="table">Nome:</span> Gabriel Rikson</td>
-							<td><span class="table">Idade:</span> 19 anos</td>
-						</tr>
-						<tr>
-							<td><span class="table">Telefone:</span> +55 21 99302-1774</td>
-							<td><span class="table">Endereço:</span> Duque de Caxias - RJ</td>
-						</tr>
-						<tr>
-							<td><span class="table">Experiência:</span> Menos de 1 ano</td>
-							<td><span class="table">Desenvolvedor:</span> Full Stack</td>
-						</tr>
-						<tr>
-							<td><span class="table">Instagram:</span> gabrielrikson_</td>
-							<td><span class="table">E-mail:</span> gabrielrikson@outlook.com</td>
-						</tr>
-					</table>
-					
+					<div class="midia-socials">
+						<a href="https://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+						<a href="https://github.com/gabrielrikson" target="_blank"><i class="fa fa-github"></i></a>
+						<a href="https://www.linkedin.com/in/gabriel-rikson-alves-das-dores-8946601a2/" target="_blank"><i class="fa fa-linkedin"></i></a>
+						<a href="mailto:gabrielriksonti@gmail.com?Subject=Hello%20again" target="_blank"><i class="fa fa-envelope"></i></a>
+					</div><!--midia-socials-->
 				</div><!--informacoes-->
 				<div class="clear"></div>
 			</div><!--container-->
 		</section><!--sobre-mim-->
 	</section><!--section.info-->
 
-	<section class="services">
+	<section id="servicos" class="services">
 		<div class="container">
 			<h3>O que eu faço</h3>
 			<h2>Meus Serviços</h2>
@@ -113,7 +100,7 @@
 		</div><!--container-->
 	</section><!--services-->
 
-	<section class="contato">
+	<section id="contato" class="contato">
 		<div class="container">
 			<h3>Contato</h3>
 			<h2>Vamos conversar</h2>
@@ -137,5 +124,6 @@
 		<p>Desenvolvido por Gabriel.Rikson 2020</p>
 	</footer>
 
+	<script src="js/script.js"></script>
 </body>
 </html>
