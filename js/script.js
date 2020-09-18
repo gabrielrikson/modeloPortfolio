@@ -9,3 +9,10 @@ function typeWriter(elemento){
 
 const subtitulo = document.getElementById('subtitulo');
 typeWriter(subtitulo);
+
+
+    var transition = document.getElementById('acao')
+    transition.addEventListener('onclick', click)
+     function click(){
+         transition.style.transition='1s'
+     }
