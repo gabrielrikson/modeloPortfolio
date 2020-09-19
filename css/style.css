@@ -170,6 +170,18 @@ div.banner-main{
 	}
 }
 
+.arrow{
+	width: 80px;
+	height: 80px;
+	position: relative;
+	top: 0;
+	left: 50%;
+	tranforfor
+}
+.arrow a{
+	font-size: 48px;
+	color: white;
+}
 /*******CONTAINER ABOUT*******/
 
 /*******SECTION DE INFORMAÇÕES*******/
