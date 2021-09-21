@@ -227,13 +227,13 @@ section.info .midia-socials{
 }
 section.info .midia-socials a{
 	color: #c43838;
-	font-size: 34px;
+	font-size: 38px;
 	padding-top: 14px;
 	padding-right: 16px;
 }
 section.info .midia-socials i:hover{
 	transition: 0.4s;
-	font-size: 40px;
+	color: rgb(199, 199, 199);
 }
 /*******SECTION DE INFORMAÇÕES******/
 
@@ -284,7 +284,7 @@ section.services h2{
 
 /*******SECTION DE SERVIÇOS*********/
 
-/*******SECTION DE DEPOIMENTOS*********/
+/*******SECTION DE CONTATO*********/
 
 section.contato{
 	width: 100%;
